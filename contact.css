@@ -1,0 +1,36 @@
+#shouting-headline p{
+    font-family:'Arvo','Georgia', serif;
+    font-size:1.6em;
+    font-weight:600;
+    text-align: center;
+    color:#000;
+}
+a img{
+    margin:0 auto;
+    display:inline-block;
+    width:5%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+#contact-links{
+    margin:0 auto;
+    width:50%;
+    text-align:center;
+}
+.big-clicky{
+    text-decoration:none;
+    text-align:center;
+    margin:5px;
+    width:12%;
+}
+#contact-linkedin{
+    background:    #1690cc;
+}
+#contact-email{
+    background:    #dc461a;
+    text-align:center;
+}
+#contact-instagram{
+    background:    #a56c3a;
+    text-align:center;
+}

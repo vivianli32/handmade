@@ -1,0 +1,216 @@
+body{
+    background-color: #F8F8F8;
+}
+#pf-navbar{
+    margin:0 auto;
+    text-align:center;
+    padding:0;
+    list-style:none;
+}
+#pf-navbar li{
+    list-style: none;
+    font-weight:500;
+    padding:0 20px 0 20px;
+    display:inline;
+}
+#pf-navbar a:link,#pf-navbar a:visited{ 
+    color:#666;
+    text-decoration:none;
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s; 
+    
+}
+#pf-navbar a:hover{
+    border-bottom: 2px solid #c5e1e8;
+    color:#666;
+    padding-bottom:1px;
+}
+#uiux{
+    border-bottom: 2px solid #c5e1e8;
+    color:#666;
+    padding-bottom:1px;
+}
+/*DIV METHOD FOR GRAPHIC
+#graphic-project-space{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+}
+.graphic-project{
+    margin-top:3%;
+    margin-bottom:3%;
+    max-width:30%;
+    display:inline-block;
+    overflow:hidden;
+}
+.graphic-project .img-link{
+}
+
+/*UL LI METHOD
+.square{
+    width:33.33%;
+    float:left;
+    padding: 0 0 33.33% 0;
+    list-style: none;
+    margin:0;
+    position:relative;
+
+}
+#graphics-grid li img {
+    width:100%;
+    height:auto;
+}*/
+
+#redirect{
+    font-size:1.2em;
+    text-align:center;
+    margin:50px;
+}
+
+/*UIUX PROJECT STYLING*/
+.uiux-project{
+    height:inherit;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3%;
+    margin-bottom:3%;
+    background-color:#FFFFFF;
+    /*border-radius:10px;*/
+    overflow:hidden;
+    border-color:#D9DCDF;
+    border-width: 2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-wrap{
+    width:48%;
+    padding-left:3%;
+}
+.project-title{
+    font-family:'Arvo',serif;
+    font-size:2em;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    color:black;
+}
+.where-when{
+    font-size:1em;
+    font-weight:200;
+    padding: 4px 0 4px 0;
+    margin:0;
+}
+.elab-text{
+    font-size:0.9em;
+    font-weight:400;
+    width:80%;
+}
+.uiux-project .img-link{
+    width:52%;
+}
+.uiux-project .img-link img, .graphic-project .img-link img{
+    max-width:100%;
+    max-height:100%;
+}
+.myButton {
+    -moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+    -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9ccfe8), color-stop(1, #8ab4d1));
+    background:-moz-linear-gradient(top, #9ccfe8 5%, #8ab4d1 100%);
+    background:-webkit-linear-gradient(top, #9ccfe8 5%, #8ab4d1 100%);
+    background:-o-linear-gradient(top, #9ccfe8 5%, #8ab4d1 100%);
+    background:-ms-linear-gradient(top, #9ccfe8 5%, #8ab4d1 100%);
+    background:linear-gradient(to bottom, #9ccfe8 5%, #8ab4d1 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ccfe8', endColorstr='#8ab4d1',GradientType=0);
+    background-color:#9ccfe8;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #6aa7cc;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:12px 23px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8ab4d1), color-stop(1, #9ccfe8));
+    background:-moz-linear-gradient(top, #8ab4d1 5%, #9ccfe8 100%);
+    background:-webkit-linear-gradient(top, #8ab4d1 5%, #9ccfe8 100%);
+    background:-o-linear-gradient(top, #8ab4d1 5%, #9ccfe8 100%);
+    background:-ms-linear-gradient(top, #8ab4d1 5%, #9ccfe8 100%);
+    background:linear-gradient(to bottom, #8ab4d1 5%, #9ccfe8 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8ab4d1', endColorstr='#9ccfe8',GradientType=0);
+    background-color:#8ab4d1;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+#resume-div{
+    width:90%;
+    margin:0 auto;
+}
+#resume-div a{
+    margin:0 auto;
+    text-align:center;
+    display:block;
+    width:18%;
+}
+
+/* narrow desktop */
+@media screen and (max-width: 750px) {
+    
+}
+@media screen and (max-width: 1023px){
+    /*.text-wrap{padding-left:6%;}*/
+}
+/*Making text smaller*/
+@media screen and (max-width: 950px){
+    .project-title{font-size:1.5em;}
+    .where-when,.elab-text{font-size:0.8em;}
+}
+/*projects 100% width*/
+@media screen and (max-width: 734px){
+    #pf-navbar{margin-bottom:5%;}
+    .project{
+        width:100%;
+        margin:0;
+        border-radius:0px;
+        background-color:#FFFFFF;
+        overflow:hidden;
+        display:block;
+    }
+    .text-wrap{width:70%; text-align:center; margin-top:3%; padding-bottom:5%;margin:0 auto;padding-top:5%;}
+    .where-when{font-size:1.2em;}
+    .elab-text{width:100%; text-align:center;font-size:1em;}
+    .project .img-link{width:100%};
+
+}
+@media screen and (max-width: 486px){
+    #pf-navbar li{font-size:0.8em;}
+    .spacer{height:1.2em}
+
+}
+
+/* mobile */
+@media screen and (max-width : 780px) {
+    .uiux-project{display:block;}
+    .img-link{width:100%;}
+}
+@media screen and (max-width:630px), @media screen and (max-device-width:320){
+    .uiux-project{width:100%;}
+    .carousel{width:100%;}
+}
